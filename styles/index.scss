@@ -6,6 +6,10 @@
   -webkit-font-smoothing: antialiased;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 // Set variables
 $background: hsl(0, 100%, 97%);
 $secondary: hsl(0, 0%, 100%);
