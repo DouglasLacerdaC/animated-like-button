@@ -7,7 +7,7 @@
 }
 
 // Set variables
-$background: 	hsl(0, 100%, 97%);
+$background: hsl(0, 100%, 97%);
 $secondary: hsl(0, 0%, 100%);
 $heart-color: hsl(0, 100%, 50%);
 
@@ -128,24 +128,24 @@ body {
   }
 
   &.reverse {
-    animation: reverseDoubleScaleCustom .4s ease forwards;
+    animation: reverseDoubleScaleCustom 0.4s ease forwards;
 
     svg.heart-filled {
-      animation: reverseVisibleHeartFilled .4s ease-in forwards;
+      animation: reverseVisibleHeartFilled 0.4s ease-in forwards;
     }
     svg.heart-contoured {
-      animation: reverseHideHeartContoured .4s ease-in forwards;
+      animation: reverseHideHeartContoured 0.4s ease-in forwards;
     }
   }
 
   &.active {
-    animation: doubleScaleCustom .4s ease forwards;
+    animation: doubleScaleCustom 0.4s ease forwards;
 
     svg.heart-filled {
-      animation: visibleHeartFilled .4s ease-in forwards;
+      animation: visibleHeartFilled 0.4s ease-in forwards;
     }
     svg.heart-contoured {
-      animation: hideHeartContoured .4s ease-in forwards;
+      animation: hideHeartContoured 0.4s ease-in forwards;
     }
   }
 

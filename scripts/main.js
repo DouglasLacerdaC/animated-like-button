@@ -25,7 +25,7 @@ likeButton.addEventListener('click', () => {
   } else {
     likeButton.classList.remove('active')
     likeButton.classList.add('reverse')
-    document.querySelector(".confetti-animation").remove();
+    document.querySelector('.confetti-animation').remove()
 
     isClickedButton = false
 
